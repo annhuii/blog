@@ -2,9 +2,8 @@
 date = '2026-06-22T16:54:13+08:00'
 draft = false
 title = 'How I use an Ambient Scribe'
+description = ''
 +++
-
-# How I Use an Ambient Scribe
 
 ## Introduction
 
