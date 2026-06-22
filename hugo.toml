@@ -2,3 +2,9 @@ baseURL = 'baseURL = 'https://blog.annhuiching.com/'
 languageCode = 'en-us'
 title = 'Ann Hui Ching'
 theme = 'PaperMod'
+[[menu.main]]
+  name = "annhuiching.com"
+  url = "https://annhuiching.com"
+  weight = 10
+
+
