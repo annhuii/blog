@@ -20,8 +20,9 @@ Eventually, the pulse returned. He was admitted to the intensive care unit, and 
 
 To satisfy this hunger, I looked at the data.
 
-Research Question
-"In a resource-limited setting, what are the best predictors of cardiac disease requiring cardiac catheterisation?"
+**Research Question**
+*"In a resource-limited setting, what are the best predictors of cardiac disease requiring cardiac catheterisation?"*
+
 In the popular imagination, a heart attack usually conjures up an image of a person clutching their chest in indescribable pain, before suddenly collapsing. The diagnosis of acute myocardial infarction, which is what a heart attack actually is, requires a constellation of symptoms and investigations to point towards a diagnosis¹ (1) Symptoms - chest pain, which has a typical description, is a key feature² (2) Electrocardiogram findings (3) Cardiac enzymes. In reality, the diagnosis of atherosclerotic coronary vessel disease requiring cardiac catheterisation, is complex. Cardiac catheterisation is not without risks - it requires a large needle inserted in the groin to track up to the blood vessels of the heart. There is risk of injury to the major vessels of the groin, a risk of tearing the heart wall, or aorta, and instigating life-threatening irregular heart rhythm. Unfortunately, the gold standard for diagnosis, a coronary angiogram, is also almost just as invasive as the treatment.
 
 What we do for a patient who clearly is clearly having an acute myocardial infarction is clear - but what do we do for the patients whom we suspect but who don't fit the criteria? Many technologies have been developed, but they are often only available in tertiary centres, and are not appropriate for an acute setting of a heart attack.
@@ -32,9 +33,9 @@ Cardiologists, like surgeons, needed to be alerted at the exact moment with the 
 
 I wondered, what if I only had the patient's history, and electrocardiogram findings - how useful would that be in predicting the need for catheterisation?
 
-Methodology
+**Methodology**
 
-Dataset
+*Dataset*
 The UC Irvine Heart Disease dataset³ was first published in 1989, and comprised patients undergoing cardiac catheterisation from various institutes in the US and Europe. These patients underwent non-invasive testing including a stress testing in which vitals signs were measured and an electrocardiogram was performed. With over a thousand patients, it has been used in machine learning datasets.
 The raw data includes 13 factors, patient factors (age, sex, thalassaemia), symptoms (type of chest pain - typical angina, non-anginal pain, atypical angina, asymptomatic, and exercise-induced angina), vital signs (resting blood pressure, maximum heart rate achieved during exercise stress test), laboratory test results (cholesterol, fasting blood glucose), non-invasive cardiac investigations (electrocardiogram at rest - ST-T wave abnormalities, left ventricular hypertrophy, or normal, with exercise stress test - if exercise induced ST depression, slope of ST segment), and the number of vessels of involved in coronary angiogram.
 
@@ -43,7 +44,7 @@ The statistical analysis was performed with Python on Juptyner lab using the Log
 ![alt text](/heartattack1.webp)
 ![alt text](/heartattack2.webp)
 
-Weaknesses of the dataset
+*Weaknesses of the dataset*
 
 We don't have much information about how the symptom data was collected. People can report a heart attack in many different ways, and there are many factors that are not accounted for that could affect the expression and interpretation of a symptom. For example, the cultural background, the language spoken by the patient or the data collector could interact with the eventual reporting of the symptoms. Only recently has the myth that women with myocardial infarction present differently from men been debunked.⁴
 
@@ -51,7 +52,7 @@ We also don't know much about the patient selection criteria for the dataset, wh
 
 We don't have the patient's past medical history which is crucial. That night, despite the absence of classic symptoms and investigations, I had a high index of suspicion for cardiac disease because of his vasculopathic history. Diabetes mellitus⁶ is a risk factor for silent myocardial infarction, and fasting blood sugar itself is not sufficient for diagnosis.
 
-Data Preparation
+*Data Preparation*
 
 I focused specifically on information that would be available within minutes, such as type of chest pain, exercise-induced angina, and electrocardiogram findings, and how these might affect the number of vessels involved in cardiac disease as shown on coronary angiogram.
 
@@ -67,20 +68,20 @@ Third, I wanted to examine the interaction between data points, to reflect the r
 Fourth, for simplicity, I isolated only the relevant data points that were needed.
 ![alt text](/heartattack6.webp)
 
-Data Analysis
+**Data Analysis**
 I performed a linear regression to examine the strength of prediction between individual data points and their interaction on coronary disease requiring catheterisation.
 ![alt text](/heartattack7.webp)
 
-Results
+**Results**
 ![alt text](/heartattack8.webp)
 
-Data Interpretation
+**Data Interpretation**
 
 While most of the factors were statistically significant, in the absence of cardiac enzymes availability, electrocardiogram findings had the strongest correlation with the number of occluded vessels.
 
 Counterintuitively, the combination of factors turned the coefficient negative and reduced the magnitude of the coefficient. This warrants further analysis.
 
-Discussion
+**Discussion**
 
 The usual way learning is through a sequence of history, physical examination, investigations, and then management. However, with evidence-based medicine, certain components are given greater weight in decision making. While I originally intended this study to answer a question I was facing, I also wondered about the wider implications for clinical practice, what about do we do with patients who don't fit into this sequence? Who are asymptomatic but need coronary intervention, or who have chest pain but don't have cardiac disease - when should I stop with the expensive investigations?
 
@@ -90,7 +91,7 @@ Ultimately, what we do, we do for patients. For this patient, he refused cardiac
 
 ---
 
-Bibliography
+**Bibliography**
 
 ¹ 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines | Journal of the American College of Cardiology. Accessed December 24, 2023. https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sectitle0090
 
