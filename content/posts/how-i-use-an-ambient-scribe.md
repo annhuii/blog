@@ -41,7 +41,7 @@ While patients triaged in the ambulatory setting are the least sick, their conce
 
 Looking at my patients, has given me the ability to notice the patient as a person, and a tacit understanding of the social context of my patient. What's the body language between the patient and their family like? Might there be a reason for visit that is not medical, such as an unsafe home environment, and I have to exercise my fiduciary role to intervene?
 
-I am a translator of my patient's experience into medicalese. One of the most common complaints is giddiness, rather than taking that as face value, I have to ask patients what do they mean exactly, is that weakness, or vertigo? I dislike the imprecision of the term numbness, is that a reduced sensation as opposed to a tingling sensation (ants crawling on your skin), can mean the world of a difference of urgency. With a scribe, I am not fixated on using my working memory in trying to remember what has just been said, and I don't have to resort to typing my notes while my patient is speaking.
+I am a translator of my patient's experience into medicalese.[^1] One of the most common complaints is giddiness, rather than taking that as face value, I have to ask patients what do they mean exactly, is that weakness, or vertigo? I dislike the imprecision of the term numbness, is that a reduced sensation as opposed to a tingling sensation (ants crawling on your skin), can mean the world of a difference of urgency. With a scribe, I am not fixated on using my working memory in trying to remember what has just been said, and I don't have to resort to typing my notes while my patient is speaking.
 
 ---
 
@@ -77,10 +77,13 @@ The use of ambient scribes is far from universal. I wouldn't have started using 
 
 To improve my experience of NoteBuddy, and hopefully reduce friction to adoption, I've some suggestions:
 
-- First of, I purchased an inexpensive <$10 conference microphone (link) that I can plug into the audio jack of any hospital computer, to improve the quality of sound capture and hence summary quality. I've tried loaning this to my colleagues (often those I've handed over my patients to) to use on their shifts, if every computer came with a microphone, there would be a much lower barrier of usage.
+- First of, I purchased an inexpensive <$10 conference microphone that I can plug into the audio jack of any hospital computer, to improve the quality of sound capture and hence summary quality. I've tried loaning this to my colleagues (often those I've handed over my patients to) to use on their shifts, if every computer came with a microphone, there would be a much lower barrier of usage.
 - Second, I've bookmarked NoteBuddy on the internet browser for every computer I use. As NoteBuddy attempts outreach outside of SingHealth institution, the cumbersome log-in method of clicking through the web application section of SingHealth website needs to be revised.
 - Third, in an inpatient setting when rounding is the source of documentation, the mobile app version is not reliable or user-friendly enough to be usable. For security reasons, NoteBuddy has to be accessed through the Microsoft Teams mobile app. To use the output, NoteBuddy must be opened on a web application on a physical computer. When there are multiple patients, this can become extremely disruptive.
   - That being said, a potential use case is on call rounding, especially in surgical teams. Capturing the information rapidly and sitting around to gather and edit the notes together makes far more sense. This could make calls less tiring, and capture information more completely when one's already sleep deprived and more prone to forgetting.
+ 
+[^1]   "Since eighty percent of diagnoses in primary care result from the history alone, the anamnesis (the account the physician assembles from the patient's history) is crucial. The tale of complaints becomes the text that is to be decoded by the practitioner cum diagnostician." Kleinman A. The illness narratives: suffering, healing, and the human condition. New York, NY: Basic Books; 1988. p. 17.<img width="468" height="74" alt="image" src="https://github.com/user-attachments/assets/c98957ea-94b1-417c-a2ed-68e0f6fbadb7" />
+
 
 ---
 
