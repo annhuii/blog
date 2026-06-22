@@ -6,5 +6,6 @@ theme = 'PaperMod'
   name = "annhuiching.com"
   url = "https://annhuiching.com"
   weight = 10
-
+buildFuture = true
+buildPast = true
 
