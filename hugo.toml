@@ -1,5 +1,5 @@
-baseURL = 'baseURL = 'https://blog.annhuiching.com/'
-languageCode = 'en-us'
+baseURL = 'https://blog.annhuiching.com/'
+locale = 'en-us'
 title = 'Ann Hui Ching'
 theme = 'PaperMod'
 [[menu.main]]
