@@ -40,7 +40,7 @@ The paper is also published as a brief communication, and difficult to fully eva
 3.	Who measures? 
 The HealthBench is meant to address the patient usage, while USMLE question banks are used for clinician evaluation. Lumping the evaluation of USMLE question banks with HealthBench is likely to obfuscate results. 
 
-[^2] Or maybe they’ll use the AI that will be embedded within their EMR as a clinical decision support where the main benefit would be from the contextual clues within a patient’s file. On a day-to-day basis, I find it unlikely physicians will take the time to input de-identified information, just to get a diagnosis.
+[^2]: Or maybe they’ll use the AI that will be embedded within their EMR as a clinical decision support where the main benefit would be from the contextual clues within a patient’s file. On a day-to-day basis, I find it unlikely physicians will take the time to input de-identified information, just to get a diagnosis.
 
 Annex: 
 
