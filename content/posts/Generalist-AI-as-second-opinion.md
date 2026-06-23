@@ -3,7 +3,7 @@ date = '2026-06-22'
 draft = false
 title = 'Generalist AI as second opinion'
 description = "How physicians actually use LLMs, and the potential of generalist AI to avoid medical group think"
-summary = "how physicians actually use LLMs, and the potential of generalist AI to avoid medical group think: the case of dengue fever"
+summary = "the potential of generalist AI to avoid medical group think: the case of pleural effusion in dengue fever"
 +++
 
 Counter-intuitively, a Nature Paper (Vishwanath etc 2025) concludes that “Clinical AI tools lagged behind frontier models on every evaluation: knowledge, expert alignment and real-world clinical use across multiple dimensions.”. 
@@ -14,11 +14,11 @@ Just as patients seek second opinions, physicians do too.
  
 Recently, Dr Lee Cheng Chuan of the National Center of Infectious Diseases encountered a situation where generalist frontier model was able to provide a view and explanation that clinical AI did not, that ultimately was convincing to him and his colleagues in infectious diseases.
 
-A patient with dengue fever developed a massive pleural effusion requiring chest tube insertion. When the pleural fluid was analyzed, it came back exudative rather than transudative, which immediately raised a clinical question: was there a secondary cause? The implicit assumption driving that concern was that dengue-associated pleural effusions are transudative. This belief was near-universal, held consistently from medical school.
+A patient with dengue fever developed a massive pleural effusion requiring chest tube insertion. When the pleural fluid was analyzed, it came back as exudative rather than transudative, which immediately raised a clinical question: was there a secondary cause? The implicit assumption driving that concern was that dengue-associated pleural effusions are transudative. This belief was near-universal held consistently since medical school.
 
 Dr Lee gave the prompt “Pleural effusion in dengue fever is a transudate or exudate?” to both generalist tools (Gemini and Deepseek) and clinical AI (OpenEvidence). (Full texts in Annex) 
 
-Both generalist models gave the answer that pleural effusions were exudate, while clinical AI reflected the prevailing medical thought, stating that effusions were transudative instead. The generalist model also offered a mechanistic explanation: in severe dengue, third-spacing is not limited to fluid alone, albumin leaks out as well, which would shift the effusion into exudative territory.
+Both generalist models answered that pleural effusions were exudative, while clinical AI reflected the prevailing medical dogma, stating that effusions were transudative instead. The generalist model also offered a mechanistic explanation: in severe dengue, third-spacing is not limited to fluid alone, albumin leaks out as well, which would shift the effusion into exudative territory.
 
 Looking at the responses it was startling how different the sources of evidence cited were. Clinical AI models are provided access to journals from the traditional bastions of academic medicine, and their citations tend to reflect this curated scope. Generalist models, by contrast, drew from a broader range of sources, resources that fall outside conventional definitions of 'reputable' medical literature. This included physician-sourced wikis (WikEM) and even a Korean blog! The sources that clinical AI cited were behind a paid wall, as expected of a physician-led approach, while the generalist models incorporated sources from mostly open source journals, sometimes via ResearchGate.
 
