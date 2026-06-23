@@ -28,7 +28,7 @@ Dengue is concentrated within geographical global south, where the resources ava
 
 ---
 
-[^1] Briefly, my critique of the paper is: 
+[^1]: Briefly, my critique of the paper is: 
 1.	Does what measured really matter? 
 I would almost completely disregard the USMLE question bank for USMLE questions does not tolerate the uncertainty of clinical practice; neither have USMLE test scores been correlated to physician success in any sense aside from matching into highly competitive and highly paid specialties
 
