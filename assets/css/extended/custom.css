@@ -9,3 +9,6 @@
 .first-entry {
   font-size: inherit;
 }
+.first-entry .entry-header h2 {
+  font-size: 24px;
+}
