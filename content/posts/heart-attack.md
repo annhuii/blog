@@ -2,8 +2,8 @@
 date = '2023-12-12'
 draft = false
 title = '... Heart Attack?'
-description = "How Data Shapes Judgement"
-Summary = "How Data Shapes Judgement"
+description = "how data shapes clinical judgement"
+Summary = "how data shapes clinical judgement"
 +++
 
 On my first 24 hour call, I cared for a man who almost died of a heart attack. I was first called in the mid-afternoon for sweating, a symptom dreadfully non-specific.
