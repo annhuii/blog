@@ -28,17 +28,7 @@ Dengue is concentrated within geographical global south, where the resources ava
 
 ---
 
-[^1]: Briefly, my critique of the paper is: 
-1.	Does what measured really matter? 
-I would almost completely disregard the USMLE question bank for USMLE questions does not tolerate the uncertainty of clinical practice; neither have USMLE test scores been correlated to physician success in any sense aside from matching into highly competitive and highly paid specialties
-
-OpenEvidence’s lack of clarity is almost expected. Communication will not matter as much to physicians who can read and understand medical jargon, and the complexity of the language is meant to convey the nuance anyway. 
-
-2.	What is actually measured? 
-The paper is also published as a brief communication, and difficult to fully evaluate the methodology. The real clinical queries (RCQ), meant to mimic real life searches by physicians, development was added as an afterthought is not rigorous. 
-
-3.	Who measures? 
-The HealthBench is meant to address the patient usage, while USMLE question banks are used for clinician evaluation. Lumping the evaluation of USMLE question banks with HealthBench is likely to obfuscate results. 
+[^1]: Briefly, my critique of the paper is: *1.	Does what measured really matter?* I would almost completely disregard the USMLE question bank for USMLE questions does not tolerate the uncertainty of clinical practice; neither have USMLE test scores been correlated to physician success in any sense aside from matching into highly competitive and highly paid specialties. OpenEvidence’s lack of clarity is almost expected. Communication will not matter as much to physicians who can read and understand medical jargon, and the complexity of the language is meant to convey the nuance anyway. *2.	What is actually measured?* The paper is also published as a brief communication, and difficult to fully evaluate the methodology. The real clinical queries (RCQ), meant to mimic real life searches by physicians, development was added as an afterthought is not rigorous. *3.	Who measures?* The HealthBench is meant to address the patient usage, while USMLE question banks are used for clinician evaluation. Lumping the evaluation of USMLE question banks with HealthBench is likely to obfuscate results. 
 
 [^2]: Or maybe they’ll use the AI that will be embedded within their EMR as a clinical decision support where the main benefit would be from the contextual clues within a patient’s file. On a day-to-day basis, I find it unlikely physicians will take the time to input de-identified information, just to get a diagnosis.
 
