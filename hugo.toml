@@ -1,6 +1,6 @@
 baseURL = 'https://blog.annhuiching.com/'
 locale = 'en-us'
-title = 'Ann Hui Ching'
+title = 'Blog'
 theme = 'PaperMod'
 [[menu.main]]
   name = "annhuiching.com"
