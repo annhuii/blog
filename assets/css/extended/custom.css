@@ -1,17 +1,15 @@
-.first-entry {
+.first-entry,
+.post-entry {
   font-size: inherit;
   padding: 0;
-  margin-bottom: 24px;
-}
-
-.first-entry .entry-header h2 {
-  font-size: 1.2rem;
-}
-
-.post-entry {
-  margin-bottom: 24px;
+  margin-bottom: 40px;
   background: none;
   border: none;
   box-shadow: none;
-  padding: 0;
+}
+
+.first-entry .entry-header h2,
+.post-entry .entry-header h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
