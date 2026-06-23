@@ -4,7 +4,7 @@ date = '2026-06-15'
 draft = false
 title = 'How I use an Ambient Scribe'
 description = "and why it has made me a better doctor"
-summary = "even "good enough" has made me a better doctor. The case of an in-house ambient scribes in public healthcare"
+summary = "even 'good enough' has made me a better doctor. The case of an in-house ambient scribes in public healthcare"
 +++
 
 ## Introduction
