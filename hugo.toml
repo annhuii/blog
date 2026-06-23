@@ -8,4 +8,7 @@ theme = 'PaperMod'
   weight = 10
 buildFuture = true
 buildPast = true
-
+cd ~/blog
+git add hugo.toml
+git commit -m "rename title to Blog"
+git push
