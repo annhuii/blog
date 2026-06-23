@@ -24,7 +24,7 @@ Looking at the responses it was startling how different the sources of evidence 
 
 Most startlingly, the definitive answer from both generalist models came from a single article (Shabbir et al. 2018) that was published in a predatory journal. 
 
-What I take is: Generalist frontier models play a role in challenging medical dogma by incorporating sources that clinical AI models might not utilize. Within academic medicine, there is a hierarchy of knowledge, with systematic reviews at the top and the humble case report near the bottom, the Lancets or NEJMs more trustworthy than an unheard-of journal. Clinical AI recreates and reflects that hierarchy. 
+What I take from this is: Generalist frontier models play a role in challenging medical dogma by incorporating sources that clinical AI models do deem as sufficiently legitimate. Within academic medicine, there is a hierarchy of knowledge, with systematic reviews at the top and the humble case report near the bottom, the Lancets or NEJMs more trustworthy than an unheard-of journal. Clinical AI recreates and reflects that hierarchy. 
 
 Dengue is concentrated within geographical global south, where the machinery needed for academic medicine might be relatively lacking. While clinical AI only accessed sources published by centers with a rich tradition of academic medicine, it inadvertently left out case series from the global south, where dengue is more likely to be treated, instead citing reviews of the condition. 
 
