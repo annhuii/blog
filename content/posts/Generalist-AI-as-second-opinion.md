@@ -3,8 +3,7 @@ date = '2026-06-22'
 draft = false
 title = 'Generalist AI as second opinion'
 description = 'How physicians actually use LLMs, and the potential of generalist AI to avoid medical group think'
-summary = 'How physicians actually use LLMs, and the potential of generalist AI to avoid medical group think. 
-The case of dengue fever'
+summary = 'How physicians actually use LLMs, and the potential of generalist AI to avoid medical group think. The case of dengue fever'
 +++
 
 
