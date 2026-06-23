@@ -8,7 +8,7 @@ summary = "How physicians actually use LLMs, and the potential of generalist AI 
 
 Counter-intuitively, a Nature Paper (Vishwanath etc 2025) concludes that “Clinical AI tools lagged behind frontier models on every evaluation: knowledge, expert alignment and real-world clinical use across multiple dimensions.”. 
 
-The results don’t really matter. Even though the methodology of this short communication has been dissected to death, <1> I presume clinicians will continue to use both generalist and clinical AI tools, regardless of what the results say.[^2] Just as patients seek second opinions, physicians do too.
+The results don’t really matter. Even though the methodology of this short communication has been dissected to death,[^1] I presume clinicians will continue to use both generalist and clinical AI tools, regardless of what the results say.[^2] Just as patients seek second opinions, physicians do too.
  
 Recently, Dr Lee Cheng Chuan of the National Center of Infectious Diseases encountered a situation where generalist frontier model was able to provide a view and explanation that clinical AI did not, that ultimately convinced him and his infectious diseases colleagues.
 
@@ -28,7 +28,7 @@ Dengue is concentrated within geographical global south, where the resources ava
 
 ---
 
-<1> Briefly, my critique of the paper is: 
+[^1] Briefly, my critique of the paper is: 
 1.	Does what measured really matter? 
 I would almost completely disregard the USMLE question bank for USMLE questions does not tolerate the uncertainty of clinical practice; neither have USMLE test scores been correlated to physician success in any sense aside from matching into highly competitive and highly paid specialties
 
