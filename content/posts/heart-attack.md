@@ -2,7 +2,7 @@
 date = '2023-12-12'
 draft = false
 title = '... Heart Attack?'
-description = ''
+description = 'How Data Shapes Judgement'
 +++
 
 On my first 24 hour call, I cared for a man who almost died of a heart attack. I was first called in the mid-afternoon for sweating, a symptom dreadfully non-specific.
