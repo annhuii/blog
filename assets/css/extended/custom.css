@@ -14,3 +14,11 @@
   box-shadow: none;
   padding: 0;
 }
+
+article.post-entry + article.post-entry {
+  margin-top: 0;
+}
+
+.posts-container, main {
+  gap: 8px;
+}
